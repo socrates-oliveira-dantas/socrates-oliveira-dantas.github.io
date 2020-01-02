@@ -14,4 +14,7 @@ Neste sítio você poderá encontrar:
 
 * conteúdo sobre conceitos importantes de Física;
 * listas de exercícios;
-* áudios sobre os conceitos de Física e resolução de exercícios.
+* áudios sobre os conceitos de Física e resolução de exercícios;
+* alguns códigos em Python e/ou Fortran associados a tópicos interessantes.
+
+A ideia é publicar material novo a cada semana.
