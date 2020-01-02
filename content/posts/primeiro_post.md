@@ -6,6 +6,8 @@ Category: Introdução
 Tags: Fisica, markdown, blog
 Slug: primeiro-post
 Authors: Dr. Sócrates de Oliveira Dantas
+Series: exemplo-post-series
+Series_index: 1
 Summary: Primeiro post.
 
 O objetivo deste sítio é a divulgação de conceitos e idéias em Física. A responsabilidade pelo conteúdo é exclusiva do ***Dr. Sócrates de Oliveira Dantas***, que atua desde janeiro de 1992 no Departamento de Física (DF), do Instituto de Ciências Exatas (ICE) na Universidade Federal de Juiz de Fora (UFJF). Consequentemente, o DF, o ICE, a UFJF nem mesmo o **github** possuem qualquer ingerência ou responsabilidade sobre o que aqui está divulgado.
