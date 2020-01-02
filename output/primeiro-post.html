@@ -198,7 +198,9 @@ init_mathjax();
     <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+        <link href="/static/css/custom.css" rel="stylesheet">
 
 
 
@@ -224,6 +226,11 @@ Conteúdo geral de Física!            </a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -283,6 +290,10 @@ Conteúdo geral de Física!            </a>
             <!-- /.entry-content -->
 <section class="well" id="related-posts">
     <h4>Part 1 of the exemplo-post-series series</h4>
+       <h5>Next articles</h5>
+       <ul>
+           <li><a href="/segundo-post.html">Segundo Post</a></li>
+       </ul>
 </section>
         </article>
     </section>
@@ -368,6 +379,7 @@ Conteúdo geral de Física!            </a>
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="/theme/js/respond.min.js"></script>
 
+    <script src="/static/js/custom.js"></script>
 
 
 <script type="text/javascript">

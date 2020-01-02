@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Articles by Dr. Sócrates de Oliveira Dantas - Conteúdo geral de Física!</title>
+    <title>Search - Conteúdo geral de Física!
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -236,21 +237,7 @@ Conteúdo geral de Física!            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            <article>
-                <h2><a href="/primeiro-post.html">Primeiro Post</a></h2>
-                <div class="summary"><p>Primeiro post.</p>
-                    <a class="btn btn-default btn-xs" href="/primeiro-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="/segundo-post.html">Segundo Post</a></h2>
-                <div class="summary"><p>Segundo post.</p>
-                    <a class="btn btn-default btn-xs" href="/segundo-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-
+<div id="tipue_search_content"></div>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -349,5 +336,16 @@ jQuery(document).ready(function($) {
 });
 });
 </script>
+    <script src="/tipuesearch_content.js"></script>
+    <script type="text/javascript" src="/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="/theme/tipuesearch/tipuesearch.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'show': 10,
+        'newWindow': false
+      });
+    });
+    </script>
 </body>
 </html>
