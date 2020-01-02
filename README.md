@@ -1,2 +1,2 @@
-# socrates-oliveira-dantas.github.io
+# sod_physics
 Conteúdo referente a Física em geral.
