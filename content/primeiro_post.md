@@ -2,10 +2,16 @@ Title: Primeiro Post
 Date: 2020-01-01 12:40
 Modified: 2020-01-01 12:40
 Status: published
-Category: This site
+Category: Introdução
 Tags: Fisica, markdown, blog
 Slug: primeiro-post
 Authors: Dr. Sócrates de Oliveira Dantas
 Summary: Primeiro post.
 
-This is the very first post!
+O objetivo deste sítio é a divulgação de conceitos e idéias em Física. A responsabilidade pelo conteúdo é exclusiva do ***Dr. Sócrates de Oliveira Dantas***, que atua desde janeiro de 1992 no Departamento de Física (DF), do Instituto de Ciências Exatas (ICE) na Universidade Federal de Juiz de Fora (UFJF). Consequentemente, o DF, o ICE, a UFJF nem mesmo o **github** possuem qualquer ingerência ou responsabilidade sobre o que aqui está divulgado.
+
+Neste sítio você poderá encontrar:
+
+* conteúdo sobre conceitos importantes de Física;
+* listas de exercícios;
+* áudios sobre os conceitos de Física e resolução de exercícios.

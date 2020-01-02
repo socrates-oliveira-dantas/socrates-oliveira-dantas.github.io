@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Dr. S\xf3crates de Oliveira Dantas'
-SITENAME = u'Conte\xfado de F\xedsica em geral!'
+SITENAME = u'Conte\xfado geral de F\xedsica!'
 SITEURL = ''
 
 PATH = 'content'
