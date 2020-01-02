@@ -6,7 +6,10 @@ AUTHOR = u'Dr. S\xf3crates de Oliveira Dantas'
 SITENAME = u'Conte\xfado geral de F\xedsica!'
 SITEURL = ''
 
+# Paths
 PATH = 'content'
+PAGE_PATHS = ['pages']
+ARTICLE_PATHS = ['posts']
 
 TIMEZONE = 'America/Sao_Paulo'
 
@@ -44,6 +47,10 @@ EXTRA_PATH_METADATA = {
 }
 
 DIRECT_TEMPLATES = ('index','tags', 'categories', 'authors', 'archives', 'search')
+
+# Top menus
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
 
 
 # Feed generation is usually not desired when developing

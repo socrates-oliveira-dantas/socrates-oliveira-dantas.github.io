@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Search - Conteúdo geral de Física!
-</title>
+    <title>Sobre - Conteúdo geral de Física!</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -174,15 +173,16 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
+<link rel="canonical" href="/pages/sobre.html">
 
         <meta name="author" content="Dr. Sócrates de Oliveira Dantas" />
+        <meta name="description" content="Why I started this blog My background My family My hobbies" />
 
-    <!-- Open Graph tags -->
-        <meta property="og:site_name" content="Conteúdo geral de Física!" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Conteúdo geral de Física!"/>
-        <meta property="og:url" content=""/>
-        <meta property="og:description" content="Conteúdo geral de Física!"/>
+    <meta property="og:site_name" content="Conteúdo geral de Física!" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Sobre"/>
+    <meta property="og:url" content="/pages/sobre.html"/>
+    <meta property="og:description" content="Why I started this blog My background My family My hobbies" />
 
 
 
@@ -217,7 +217,7 @@ Conteúdo geral de Física!            </a>
                          <li><a href="/pages/livro.html">
                              Livro
                           </a></li>
-                         <li><a href="/pages/sobre.html">
+                         <li class="active"><a href="/pages/sobre.html">
                              Sobre
                           </a></li>
             </ul>
@@ -240,7 +240,16 @@ Conteúdo geral de Física!            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-<div id="tipue_search_content"></div>
+    <section id="content" class="body">
+        <h1 class="entry-title">Sobre</h1>
+        
+        <div class="entry-content">
+            <p>Why I started this blog</p>
+<p>My background</p>
+<p>My family</p>
+<p>My hobbies</p>
+        </div>
+    </section>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -339,16 +348,5 @@ jQuery(document).ready(function($) {
 });
 });
 </script>
-    <script src="/tipuesearch_content.js"></script>
-    <script type="text/javascript" src="/theme/tipuesearch/tipuesearch_set.js"></script>
-    <script type="text/javascript" src="/theme/tipuesearch/tipuesearch.min.js"></script>
-    <script>
-    $(document).ready(function() {
-      $('#tipue_search_input').tipuesearch({
-        'show': 10,
-        'newWindow': false
-      });
-    });
-    </script>
 </body>
 </html>
