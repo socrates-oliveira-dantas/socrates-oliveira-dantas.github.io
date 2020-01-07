@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Conteúdo geral de Física!</title><link href="https://socrates-oliveira-dantas.github.io/sod_physics/" rel="alternate"></link><link href="https://socrates-oliveira-dantas.github.io/sod_physics/feeds/all.atom.xml" rel="self"></link><id>https://socrates-oliveira-dantas.github.io/sod_physics/</id><updated>2020-01-03T20:00:00-02:00</updated><entry><title>Primeiro código!</title><link href="https://socrates-oliveira-dantas.github.io/sod_physics/codes.html" rel="alternate"></link><published>2020-01-03T20:00:00-02:00</published><updated>2020-01-03T20:00:00-02:00</updated><author><name>Dr. Sócrates de Oliveira Dantas</name></author><id>tag:socrates-oliveira-dantas.github.io,2020-01-03:/sod_physics/codes.html</id><summary type="html">&lt;p&gt;Primeiro código usando jupyter notebook.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Conteúdo geral de Física! - Codigos</title><link href="https://socrates-oliveira-dantas.github.io/sod_physics/" rel="alternate"></link><link href="https://socrates-oliveira-dantas.github.io/sod_physics/feeds/codigos.atom.xml" rel="self"></link><id>https://socrates-oliveira-dantas.github.io/sod_physics/</id><updated>2020-01-03T20:00:00-02:00</updated><entry><title>Primeiro código!</title><link href="https://socrates-oliveira-dantas.github.io/sod_physics/codes.html" rel="alternate"></link><published>2020-01-03T20:00:00-02:00</published><updated>2020-01-03T20:00:00-02:00</updated><author><name>Dr. Sócrates de Oliveira Dantas</name></author><id>tag:socrates-oliveira-dantas.github.io,2020-01-03:/sod_physics/codes.html</id><summary type="html">&lt;p&gt;Primeiro código usando jupyter notebook.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1250,35 +1250,4 @@ Para o blog sod_physics.&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Codigos"></category><category term="python"></category></entry><entry><title>Primeiro Post</title><link href="https://socrates-oliveira-dantas.github.io/sod_physics/primeiro-post.html" rel="alternate"></link><published>2020-01-01T12:40:00-02:00</published><updated>2020-01-01T12:40:00-02:00</updated><author><name>Dr. Sócrates de Oliveira Dantas</name></author><id>tag:socrates-oliveira-dantas.github.io,2020-01-01:/sod_physics/primeiro-post.html</id><summary type="html">&lt;p&gt;Primeiro post.&lt;/p&gt;</summary><content type="html">&lt;p&gt;O objetivo deste sítio é a divulgação de conceitos e idéias em Física. A responsabilidade pelo conteúdo é exclusiva do &lt;strong&gt;&lt;em&gt;Dr. Sócrates de Oliveira Dantas&lt;/em&gt;&lt;/strong&gt;, que atua como professor de ensino superior desde janeiro de 1992 no Departamento de Física (DF), do Instituto de Ciências Exatas (ICE) na Universidade Federal de Juiz de Fora (UFJF). Consequentemente, o DF, o ICE, a UFJF nem mesmo o &lt;strong&gt;github&lt;/strong&gt; possuem qualquer ingerência ou responsabilidade sobre o que aqui está divulgado.&lt;/p&gt;
-&lt;p&gt;Neste sítio você poderá encontrar:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;conteúdo sobre conceitos importantes de Física;&lt;/li&gt;
-&lt;li&gt;listas de exercícios;&lt;/li&gt;
-&lt;li&gt;áudios sobre os conceitos de Física e resolução de exercícios;&lt;/li&gt;
-&lt;li&gt;alguns códigos em Python e/ou Fortran associados a tópicos interessantes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A ideia é publicar material novo a cada semana. As disciplinas que estarão presentes neste &lt;strong&gt;blog&lt;/strong&gt; são:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Física I - conteúdo de mecânica a nível de graduação;&lt;/li&gt;
-&lt;li&gt;Física III - conteúdo de eletricidade e magnetismo a nível de graduação;&lt;/li&gt;
-&lt;li&gt;Física Computacional - conteúdo envolvendo programação em linguagens Python e/ou Fortran.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Introdução"></category><category term="Fisica"></category><category term="markdown"></category><category term="blog"></category></entry><entry><title>Segundo Post</title><link href="https://socrates-oliveira-dantas.github.io/sod_physics/segundo-post.html" rel="alternate"></link><published>2020-01-01T12:40:00-02:00</published><updated>2020-01-01T12:40:00-02:00</updated><author><name>Dr. Sócrates de Oliveira Dantas</name></author><id>tag:socrates-oliveira-dantas.github.io,2020-01-01:/sod_physics/segundo-post.html</id><summary type="html">&lt;p&gt;Segundo post.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the fourth post of a series of posts. It will demonstrate tables.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Column Header&lt;/th&gt;
-&lt;th&gt;Column Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Row 1&lt;/td&gt;
-&lt;td&gt;Data 1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Row 2&lt;/td&gt;
-&lt;td&gt;Data 2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</content><category term="Introdução"></category><category term="Fisica"></category><category term="markdown"></category><category term="blog"></category></entry></feed>
+</content><category term="Codigos"></category><category term="python"></category></entry></feed>
