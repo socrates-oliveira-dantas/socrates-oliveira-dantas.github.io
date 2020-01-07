@@ -8,7 +8,7 @@ SITEURL = ''
 
 # Paths
 PATH = 'content'
-PAGE_PATHS = ['pages']
+PAGE_PATHS = ['pages','codes']
 ARTICLE_PATHS = ['posts']
 
 TIMEZONE = 'America/Sao_Paulo'
@@ -20,8 +20,6 @@ PLUGIN_PATHS = ['pelican-plugins']
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
-
-PLUGIN_PATHS = ['pelican-plugins']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGINS = [
     'i18n_subsites',
@@ -52,6 +50,9 @@ DIRECT_TEMPLATES = ('index','tags', 'categories', 'authors', 'archives', 'search
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
 
+MARKUP =('md', 'ipynb')
+IGNORE_FILES = [".ipynb_checkpoints"]
+IPYNB_USE_METACELL = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -64,11 +65,11 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('É possível modificar estes links no arquivo de configuração.', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('É possível modificar estes links no arquivo de configuração.', '#'),
+          ('Outro link social', '#'),)
 
 DEFAULT_PAGINATION = 5
 

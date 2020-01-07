@@ -180,22 +180,20 @@ init_mathjax();
         <meta property="og:site_name" content="Conteúdo geral de Física!" />
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Conteúdo geral de Física!"/>
-        <meta property="og:url" content="."/>
+        <meta property="og:url" content=""/>
         <meta property="og:description" content="Conteúdo geral de Física!"/>
 
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="./theme/css/bootstrap.flatly.min.css" type="text/css"/>
-    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/theme/css/bootstrap.flatly.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="./theme/css/pygments/native.css" rel="stylesheet">
-    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
-    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
-        <link href="./static/css/custom.css" rel="stylesheet">
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+        <link href="/static/css/custom.css" rel="stylesheet">
 
-        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Conteúdo geral de Física! ATOM Feed"/>
 
 
 </head>
@@ -210,15 +208,15 @@ init_mathjax();
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="./" class="navbar-brand">
+            <a href="/" class="navbar-brand">
 Conteúdo geral de Física!            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="./pages/livro.html">
+                         <li><a href="/pages/livro.html">
                              Livro
                           </a></li>
-                         <li><a href="./pages/sobre.html">
+                         <li><a href="/pages/sobre.html">
                              Sobre
                           </a></li>
             </ul>
@@ -247,13 +245,25 @@ Conteúdo geral de Física!            </a>
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-codigos">Codigos <span class="badge pull-right">1</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-codigos" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p><span class="categories-timestamp"><time datetime="2020-01-03T20:00:00-02:00">Sex 03 janeiro 2020</time></span> <a href="/codes.html">Primeiro código!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-introducao">Introdução <span class="badge pull-right">2</span></a>
                     </h4>
                 </div>
                 <div id="collapse-introducao" class="panel-collapse collapse">
                     <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2020-01-01T12:40:00-02:00">Qua 01 janeiro 2020</time></span> <a href="./primeiro-post.html">Primeiro Post</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2020-01-01T12:40:00-02:00">Qua 01 janeiro 2020</time></span> <a href="./segundo-post.html">Segundo Post</a></p>
+                        <p><span class="categories-timestamp"><time datetime="2020-01-01T12:40:00-02:00">Qua 01 janeiro 2020</time></span> <a href="/primeiro-post.html">Primeiro Post</a></p>
+                        <p><span class="categories-timestamp"><time datetime="2020-01-01T12:40:00-02:00">Qua 01 janeiro 2020</time></span> <a href="/segundo-post.html">Segundo Post</a></p>
                     </div>
                 </div>
             </div>
@@ -271,24 +281,27 @@ Conteúdo geral de Física!            </a>
 <li class="list-group-item">
   <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
   <ul class="list-group" id="social">
-    <li class="list-group-item"><a href="#"><i class="fa fa-you-can-add-links-in-your-config-file-square fa-lg"></i> You can add links in your config file</a></li>
-    <li class="list-group-item"><a href="#"><i class="fa fa-another-social-link-square fa-lg"></i> Another social link</a></li>
+    <li class="list-group-item"><a href="#"><i class="fa fa-é-possível-modificar-estes-links-no-arquivo-de-configuração.-square fa-lg"></i> É possível modificar estes links no arquivo de configuração.</a></li>
+    <li class="list-group-item"><a href="#"><i class="fa fa-outro-link-social-square fa-lg"></i> Outro link social</a></li>
   </ul>
 </li>
 <!-- End Sidebar/Social -->
 
 <!-- Sidebar/Tag Cloud -->
 <li class="list-group-item">
-  <a href="./"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+  <a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
-    <li class="list-group-item tag-4">
-      <a href="./tag/fisica.html">Fisica</a>
+    <li class="list-group-item tag-1">
+      <a href="/tag/markdown.html">markdown</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="/tag/blog.html">blog</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="/tag/fisica.html">Fisica</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="./tag/markdown.html">markdown</a>
-    </li>
-    <li class="list-group-item tag-4">
-      <a href="./tag/blog.html">blog</a>
+      <a href="/tag/python.html">python</a>
     </li>
   </ul>
 </li>
@@ -308,7 +321,7 @@ Conteúdo geral de Física!            </a>
       <a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a>
     </li>
     <li class="list-group-item">
-      <a href="#" target="_blank">You can modify those links in your config file</a>
+      <a href="#" target="_blank">É possível modificar estes links no arquivo de configuração.</a>
     </li>
   </ul>
 </li>
@@ -333,15 +346,15 @@ Conteúdo geral de Física!            </a>
       </div>
    </div>
 </footer>
-<script src="./theme/js/jquery.min.js"></script>
+<script src="/theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./theme/js/bootstrap.min.js"></script>
+<script src="/theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="./theme/js/respond.min.js"></script>
+<script src="/theme/js/respond.min.js"></script>
 
-    <script src="./static/js/custom.js"></script>
+    <script src="/static/js/custom.js"></script>
 
 
 <script type="text/javascript">
