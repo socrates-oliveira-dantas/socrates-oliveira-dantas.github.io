@@ -1136,7 +1136,7 @@ h6:hover .anchor-link {
 &lt;li&gt;$q_i$ e $q_j$ são os valores (&lt;font color="red"&gt;incluindo sinais&lt;/font&gt;) das cargas pontuais $i$ e $j$ em unidades de Coulomb ($C$),&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;$\vec{r}_{ij}$ é o vetor posição que inicia na carga pontual $i$ e termina na carga pontual $j$,&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;$r_{ij}$ é o módulo do vetor posição $\vec{r}_{ij}$ em metros ($m$),&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;$\epsilon_0$ é a permissividade elétrica do váculo e possui valor $8,854187817\times 10^{-12} \frac{C^{-2}}{N \, m^2}$,&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;$\epsilon_0$ é a permissividade elétrica do váculo e possui valor $8,854187817\times 10^{-12} \frac{C^{2}}{N \, m^2}$,&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;$\hat{r}_{ij}=\frac{\vec{r}_{ij}}{r_{ij}}$ é o vetor unitário na direção e sentido de $i$ para $j$.&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1146,7 +1146,15 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;A figura abaixo ilustra as cargas pontuais, os vetores posição das partículas $i$ e $j$ bem como o vetor posição entre estas partículas em três dimensões.&lt;/p&gt;
+&lt;p&gt;Esta expressão tem uma forma que é conhecida como de pares de partículas, quando comparamos com forças gravitacionais a dependência com a distância entre as partículas é a mesma. A única diferença está associada ao fato de forças gravitacionais serem apenas de atração.&lt;br&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;A figura abaixo ilustra as cargas pontuais, os vetores posição das partículas $i$ e $j$ bem como o vetor posição entre elas em três dimensões.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1244,6 +1252,120 @@ $r_{ij} = \sqrt{(x_j - x_i)^2 + (y_j - y_i)^2 + (z_j - z_i)^2}$&lt;br&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Aplica&amp;#231;&amp;#227;o:"&gt;Aplica&amp;#231;&amp;#227;o:&lt;a class="anchor-link" href="#Aplica&amp;#231;&amp;#227;o:"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Uma carga pontual $q_1=0,5\mu C$ está localizada na origem ($0$,$0$,$0$) de um sistema cartesiano, uma segunda carga pontual $q_2=0,6\mu C$ está localizada no vértice ($a$,$a$,$a$) de um cubo de aresta $a=0,3m$. Determine o vetor força que age sobre a carga $q_2$.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Resolu&amp;#231;&amp;#227;o:"&gt;Resolu&amp;#231;&amp;#227;o:&lt;a class="anchor-link" href="#Resolu&amp;#231;&amp;#227;o:"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Na busca por solução de um problema em Física é importante fazermos um desenho que ilustre a situação envolvida no enunciado, abaixo temos um esquema de como as cargas pontuais estão dispostas no espaço:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;img src="https://socrates-oliveira-dantas.github.io/sod_physics/cargas-pont-prob.jpg" alt="Problema"&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Assim, a força que a carga pontual $2$ sente devido a presença da carga pontual $1$ pode ser escrita como:
+$\vec{F}_{21} = - \frac{1}{4 \pi \epsilon_0} \frac{q_1 \, q_2}{r_{21}^2} \hat{r}_{21}$&lt;br&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Por outro lado:&lt;br&gt;
+$\vec{r}_{21} = \vec{r}_1 - \vec{r}_2$&lt;br&gt;
+$\vec{r}_{21} = 0 \, \hat{i} + 0 \, \hat{j} + 0 \, \hat{k} - (a \, \hat{i} + a \, \hat{j} + a \, \hat{k})$&lt;br&gt;
+$\vec{r}_{21} = - a \, (\hat{i} + \hat{j} + \hat{k})$&lt;br&gt;
+$r_{21} = a \, \sqrt{3} \rightarrow r_{21}^2 = 3 \, a^2$&lt;br&gt;
+$\hat{r}_{21} = \frac{\vec{r}_{21}}{r_{21}} = \frac{-1}{\sqrt{3}} \, (\hat{i} + \hat{j} + \hat{k})$&lt;br&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Logo:&lt;br&gt;
+$\vec{F}_{21} = - \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{3 \, a^2} \left[ \frac{-1}{\sqrt{3}} (\hat{i} + \hat{j} + \hat{k}) \right] = \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{\sqrt{27} \, a^2} (\hat{i} + \hat{j} + \hat{k})$&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;$\vec{F}_{21} = \frac{1}{4\pi \, \times 8,854187817 \times 10^{-12} \left( \frac{C^2}{N m^2} \right)} \frac{0,5\times 10^{-6} (C) \times 0,6 \times 10^{-6} (C)}{\sqrt{27} \times (0,3)^2 (m^2)} \, (\hat{i} + \hat{j} + \hat{k}) = \frac{1}{4\pi \times 8,854187817} \frac{0,3}{\sqrt{27} \times 9 \times 10^{-2}} \, (\hat{i} + \hat{j} + \hat{k}) \, (N)$&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Efetuando as contas e considerando $\pi=3,14159265359$, obtemos para o vetor força que a carga pontual $2$ sente devido à presença da carga pontual $1$:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;font color="blue"&gt;$\vec{F}_{21} \simeq 5,7655\times 10^{-3} (\hat{i} + \hat{j} + \hat{k}) \, (N)$&lt;/font&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;O resultado final para este vetor nos indica que a força é de repulsão apontada ao longo da diagonal do cubo, com intensidade (magnitude) de aproximadamente &lt;font color="blue"&gt;$\sqrt{3} \times 5,7655 \times 10^{-3} \, (N) \simeq 9,9861 \times 10^{-3} \, (N)$&lt;/font&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython2"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;
  
 
