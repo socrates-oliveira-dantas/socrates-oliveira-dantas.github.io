@@ -173,7 +173,7 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="/textos.html">
+<link rel="canonical" href="./textos.html">
 
         <meta name="author" content="Dr. Sócrates de Oliveira Dantas" />
         <meta name="keywords" content="python" />
@@ -182,7 +182,7 @@ init_mathjax();
         <meta property="og:site_name" content="Conteúdo geral de Física!" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Primeiro texto Fisica 3!"/>
-        <meta property="og:url" content="/textos.html"/>
+        <meta property="og:url" content="./textos.html"/>
         <meta property="og:description" content="Primeiro texto de Física 3 para o jupyter notebook."/>
         <meta property="article:published_time" content="2020-01-17" />
             <meta property="article:section" content="Texto-Fisica3" />
@@ -192,16 +192,19 @@ init_mathjax();
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="/theme/css/bootstrap.flatly.min.css" type="text/css"/>
-    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./theme/css/bootstrap.flatly.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="/theme/css/pygments/native.css" rel="stylesheet">
-    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
-    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
-        <link href="/static/css/custom.css" rel="stylesheet">
+    <link href="./theme/css/pygments/native.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+        <link href="./static/css/custom.css" rel="stylesheet">
 
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Conteúdo geral de Física! ATOM Feed"/>
 
-
+        <link href="./feeds/texto-fisica3.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Conteúdo geral de Física! Texto-Fisica3 ATOM Feed"/>
 </head>
 <body>
 
@@ -214,15 +217,15 @@ init_mathjax();
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-brand">
+            <a href="./" class="navbar-brand">
 Conteúdo geral de Física!            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="/pages/livro.html">
+                         <li><a href="./pages/livro.html">
                              Livro
                           </a></li>
-                         <li><a href="/pages/sobre.html">
+                         <li><a href="./pages/sobre.html">
                              Sobre
                           </a></li>
             </ul>
@@ -249,7 +252,7 @@ Conteúdo geral de Física!            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="/textos.html"
+                    <a href="./textos.html"
                        rel="bookmark"
                        title="Permalink to Primeiro texto Fisica 3!">
                         Primeiro texto Fisica 3!
@@ -270,7 +273,7 @@ Conteúdo geral de Física!            </a>
 
 
 <span class="label label-default">Tags</span>
-	<a href="/tag/python.html">python</a>
+	<a href="./tag/python.html">python</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
@@ -1411,7 +1414,7 @@ h6:hover .anchor-link {
 <li>$q_i$ e $q_j$ são os valores (<font color="red">incluindo sinais</font>) das cargas pontuais $i$ e $j$ em unidades de Coulomb ($C$),<br></li>
 <li>$\vec{r}_{ij}$ é o vetor posição que inicia na carga pontual $i$ e termina na carga pontual $j$,<br></li>
 <li>$r_{ij}$ é o módulo do vetor posição $\vec{r}_{ij}$ em metros ($m$),<br></li>
-<li>$\epsilon_0$ é a permissividade elétrica do váculo e possui valor $8,854187817\times 10^{-12} \frac{C^{-2}}{N \, m^2}$,<br></li>
+<li>$\epsilon_0$ é a permissividade elétrica do váculo e possui valor $8,854187817\times 10^{-12} \frac{C^{2}}{N \, m^2}$,<br></li>
 <li>$\hat{r}_{ij}=\frac{\vec{r}_{ij}}{r_{ij}}$ é o vetor unitário na direção e sentido de $i$ para $j$.<br></li>
 </ul>
 
@@ -1421,7 +1424,7 @@ h6:hover .anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>A figura abaixo ilustra as cargas pontuais, os vetores posição das partículas $i$ e $j$ bem como o vetor posição entre estas partículas em três dimensões.</p>
+<p>Esta expressão tem uma forma que é conhecida como de pares de partículas, quando comparamos com forças gravitacionais a dependência com a distância entre as partículas é a mesma. A única diferença está associada ao fato de forças gravitacionais serem apenas de atração.<br></p>
 
 </div>
 </div>
@@ -1429,7 +1432,15 @@ h6:hover .anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="/cargas-pont.jpg" alt="Cargas"></p>
+<p>A figura abaixo ilustra as cargas pontuais, os vetores posição das partículas $i$ e $j$ bem como o vetor posição entre elas em três dimensões.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="./cargas-pont.jpg" alt="Cargas"></p>
 
 </div>
 </div>
@@ -1499,7 +1510,7 @@ $r_{ij} = \sqrt{(x_j - x_i)^2 + (y_j - y_i)^2 + (z_j - z_i)^2}$<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="/cargas-pont-rep.jpg" alt="Cargas-repulsão"></p>
+<p><img src="./cargas-pont-rep.jpg" alt="Cargas-repulsão"></p>
 
 </div>
 </div>
@@ -1515,10 +1526,124 @@ $r_{ij} = \sqrt{(x_j - x_i)^2 + (y_j - y_i)^2 + (z_j - z_i)^2}$<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="/cargas-pont-atr.jpg" alt="Cargas-atração"></p>
+<p><img src="./cargas-pont-atr.jpg" alt="Cargas-atração"></p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Aplica&#231;&#227;o:">Aplica&#231;&#227;o:<a class="anchor-link" href="#Aplica&#231;&#227;o:">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Uma carga pontual $q_1=0,5\mu C$ está localizada na origem ($0$,$0$,$0$) de um sistema cartesiano, uma segunda carga pontual $q_2=0,6\mu C$ está localizada no vértice ($a$,$a$,$a$) de um cubo de aresta $a=0,3m$. Determine o vetor força que age sobre a carga $q_2$.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Resolu&#231;&#227;o:">Resolu&#231;&#227;o:<a class="anchor-link" href="#Resolu&#231;&#227;o:">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Na busca por solução de um problema em Física é importante fazermos um desenho que ilustre a situação envolvida no enunciado, abaixo temos um esquema de como as cargas pontuais estão dispostas no espaço:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="./cargas-pont-prob.jpg" alt="Problema"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Assim, a força que a carga pontual $2$ sente devido a presença da carga pontual $1$ pode ser escrita como:
+$\vec{F}_{21} = - \frac{1}{4 \pi \epsilon_0} \frac{q_1 \, q_2}{r_{21}^2} \hat{r}_{21}$<br></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Por outro lado:<br>
+$\vec{r}_{21} = \vec{r}_1 - \vec{r}_2$<br>
+$\vec{r}_{21} = 0 \, \hat{i} + 0 \, \hat{j} + 0 \, \hat{k} - (a \, \hat{i} + a \, \hat{j} + a \, \hat{k})$<br>
+$\vec{r}_{21} = - a \, (\hat{i} + \hat{j} + \hat{k})$<br>
+$r_{21} = a \, \sqrt{3} \rightarrow r_{21}^2 = 3 \, a^2$<br>
+$\hat{r}_{21} = \frac{\vec{r}_{21}}{r_{21}} = \frac{-1}{\sqrt{3}} \, (\hat{i} + \hat{j} + \hat{k})$<br></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Logo:<br>
+$\vec{F}_{21} = - \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{3 \, a^2} \left[ \frac{-1}{\sqrt{3}} (\hat{i} + \hat{j} + \hat{k}) \right] = \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{\sqrt{27} \, a^2} (\hat{i} + \hat{j} + \hat{k})$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>$\vec{F}_{21} = \frac{1}{4\pi \, \times 8,854187817 \times 10^{-12} \left( \frac{C^2}{N m^2} \right)} \frac{0,5\times 10^{-6} (C) \times 0,6 \times 10^{-6} (C)}{\sqrt{27} \times (0,3)^2 (m^2)} \, (\hat{i} + \hat{j} + \hat{k}) = \frac{1}{4\pi \times 8,854187817} \frac{0,3}{\sqrt{27} \times 9 \times 10^{-2}} \, (\hat{i} + \hat{j} + \hat{k}) \, (N)$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Efetuando as contas e considerando $\pi=3,14159265359$, obtemos para o vetor força que a carga pontual $2$ sente devido à presença da carga pontual $1$:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><font color="blue">$\vec{F}_{21} \simeq 5,7655\times 10^{-3} (\hat{i} + \hat{j} + \hat{k}) \, (N)$</font></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>O resultado final para este vetor nos indica que a força é de repulsão apontada ao longo da diagonal do cubo, com intensidade (magnitude) de aproximadamente <font color="blue">$\sqrt{3} \times 5,7655 \times 10^{-3} \, (N) \simeq 9,9861 \times 10^{-3} \, (N)$</font>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
  
 
@@ -1579,19 +1704,19 @@ $r_{ij} = \sqrt{(x_j - x_i)^2 + (y_j - y_i)^2 + (z_j - z_i)^2}$<br>
 
 <!-- Sidebar/Tag Cloud -->
 <li class="list-group-item">
-  <a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+  <a href="./"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
     <li class="list-group-item tag-4">
-      <a href="/tag/markdown.html">markdown</a>
+      <a href="./tag/fisica.html">Fisica</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="/tag/python.html">python</a>
+      <a href="./tag/markdown.html">markdown</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="/tag/blog.html">blog</a>
+      <a href="./tag/python.html">python</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="/tag/fisica.html">Fisica</a>
+      <a href="./tag/blog.html">blog</a>
     </li>
   </ul>
 </li>
@@ -1636,15 +1761,15 @@ $r_{ij} = \sqrt{(x_j - x_i)^2 + (y_j - y_i)^2 + (z_j - z_i)^2}$<br>
       </div>
    </div>
 </footer>
-<script src="/theme/js/jquery.min.js"></script>
+<script src="./theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/theme/js/bootstrap.min.js"></script>
+<script src="./theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="/theme/js/respond.min.js"></script>
+<script src="./theme/js/respond.min.js"></script>
 
-    <script src="/static/js/custom.js"></script>
+    <script src="./static/js/custom.js"></script>
 
 
 <script type="text/javascript">

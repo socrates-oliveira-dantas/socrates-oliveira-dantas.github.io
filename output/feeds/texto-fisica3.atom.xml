@@ -1113,7 +1113,7 @@ h6:hover .anchor-link {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="-For&amp;#231;a-eletrost&amp;#225;tica-entre-duas-part&amp;#237;culas-pontuais:-"&gt;&lt;font color="blue"&gt; For&amp;#231;a eletrost&amp;#225;tica entre duas part&amp;#237;culas pontuais: &lt;/font&gt;&lt;a class="anchor-link" href="#-For&amp;#231;a-eletrost&amp;#225;tica-entre-duas-part&amp;#237;culas-pontuais:-"&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Esta força pode ser representada por um &lt;strong&gt;&lt;em&gt;&lt;font color="red"&gt;vetor&lt;/font&gt;&lt;/em&gt;&lt;/strong&gt; através da seguinte expressão:&lt;/p&gt;
+&lt;h1 id="-For&amp;#231;a-eletrost&amp;#225;tica-entre-part&amp;#237;culas-pontuais:-"&gt;&lt;font color="blue"&gt; For&amp;#231;a eletrost&amp;#225;tica entre part&amp;#237;culas pontuais: &lt;/font&gt;&lt;a class="anchor-link" href="#-For&amp;#231;a-eletrost&amp;#225;tica-entre-part&amp;#237;culas-pontuais:-"&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Supondo que o nosso sistema de partículas pontuais sejam constituído por duas cargas pontuais $q_i$ e $q_j$ separadas uma da outra como na figura abaixo. Além disso, vamos supor que não exista nenhum outro agente externo atuando sobre estas partículas - sistema isolado. A força que uma partícula sente devido à presença da outra pode ser representada por um &lt;strong&gt;&lt;em&gt;&lt;font color="red"&gt;vetor&lt;/font&gt;&lt;/em&gt;&lt;/strong&gt; através da seguinte expressão:&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1121,7 +1121,7 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;$\vec{F}_{ij} = - \frac{1}{4\pi \epsilon_0} \frac{q_i q_j}{r_{ij}^3} \, \vec{r}_{ij} = - \frac{1}{4\pi \epsilon_0} \frac{q_i q_j}{r_{ij}^2} \, \hat{r}_{ij}$&lt;/p&gt;
+&lt;p&gt;$\vec{F}_{ij} = - \frac{1}{4\pi \epsilon_0} \frac{q_i \, q_j}{r_{ij}^3} \, \vec{r}_{ij} = - \frac{1}{4\pi \epsilon_0} \frac{q_i \, q_j}{r_{ij}^2} \, \hat{r}_{ij}$,&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1129,13 +1129,16 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;na expressão vetorial acima identificamos:&lt;br&gt;
-$\vec{F}_{ij}$ é o vetor força que a partícula pontual carregada $i$ &lt;strong&gt;&lt;em&gt;&lt;font color="red"&gt;sente&lt;/font&gt;&lt;/em&gt;&lt;/strong&gt; devido à &lt;strong&gt;&lt;em&gt;&lt;font color="red"&gt;presença&lt;/font&gt;&lt;/em&gt;&lt;/strong&gt; da partícula pontual carregada $j$ em Newtons ($N$),&lt;br&gt;
-$q_i$ e $q_j$ são os valores (&lt;font color="red"&gt;incluindo sinais&lt;/font&gt;) das cargas pontuais $i$ e $j$ em unidades de Coulomb ($C$),&lt;br&gt;
-$\vec{r}_{ij}$ é o vetor posição que inicia na carga pontual $i$ e termina na carga pontual $j$,&lt;br&gt;
-$r_{ij}$ é o módulo do vetor posição $\vec{r}_{ij}$ em metros ($m$),&lt;br&gt;
-$\epsilon_0$ é a permissividade elétrica do váculo e possui valor $8,854187817\times 10^{-12} \frac{C^{-2}}{N \, m^2}$,&lt;br&gt;
-$\hat{r}_{ij}=\frac{\vec{r}_{ij}}{r_{ij}}$ é o vetor unitário na direção e sentido de $i$ para $j$.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;na expressão vetorial acima identificamos:&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\vec{F}_{ij}$ é o vetor força que a partícula pontual carregada $i$ &lt;strong&gt;&lt;em&gt;&lt;font color="red"&gt;sente&lt;/font&gt;&lt;/em&gt;&lt;/strong&gt; devido à &lt;strong&gt;&lt;em&gt;&lt;font color="red"&gt;presença&lt;/font&gt;&lt;/em&gt;&lt;/strong&gt; da partícula pontual carregada $j$ em Newtons ($N$),&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;o sinal negativo (&lt;font color="red"&gt;$-$&lt;/font&gt;) logo após a igualdade é muito importante e não deve ser menosprezado na expressão vetorial, &lt;bf&gt;&lt;/li&gt;
+&lt;li&gt;$q_i$ e $q_j$ são os valores (&lt;font color="red"&gt;incluindo sinais&lt;/font&gt;) das cargas pontuais $i$ e $j$ em unidades de Coulomb ($C$),&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;$\vec{r}_{ij}$ é o vetor posição que inicia na carga pontual $i$ e termina na carga pontual $j$,&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;$r_{ij}$ é o módulo do vetor posição $\vec{r}_{ij}$ em metros ($m$),&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;$\epsilon_0$ é a permissividade elétrica do váculo e possui valor $8,854187817\times 10^{-12} \frac{C^{2}}{N \, m^2}$,&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;$\hat{r}_{ij}=\frac{\vec{r}_{ij}}{r_{ij}}$ é o vetor unitário na direção e sentido de $i$ para $j$.&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1143,7 +1146,7 @@ $\hat{r}_{ij}=\frac{\vec{r}_{ij}}{r_{ij}}$ é o vetor unitário na direção e s
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;A figura abaixo ilustra as cargas pontuais, os vetores posição das partículas $i$ e $j$ bem como o vetor posição entre estas partículas em três dimensões.&lt;/p&gt;
+&lt;p&gt;Esta expressão tem uma forma que é conhecida como de pares de partículas, quando comparamos com forças gravitacionais a dependência com a distância entre as partículas é a mesma. A única diferença está associada ao fato de forças gravitacionais serem apenas de atração.&lt;br&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1151,7 +1154,7 @@ $\hat{r}_{ij}=\frac{\vec{r}_{ij}}{r_{ij}}$ é o vetor unitário na direção e s
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;img src="https://socrates-oliveira-dantas.github.io/sod_physics/cargas-pont.png" alt="Cargas"&gt;&lt;/p&gt;
+&lt;p&gt;A figura abaixo ilustra as cargas pontuais, os vetores posição das partículas $i$ e $j$ bem como o vetor posição entre elas em três dimensões.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1159,7 +1162,7 @@ $\hat{r}_{ij}=\frac{\vec{r}_{ij}}{r_{ij}}$ é o vetor unitário na direção e s
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Onde $\vec{r}_i = x_i \, \hat{i} + y_i \, \hat{j} + z_i \, \hat{k}$ e $\vec{r}_j = x_j \, \hat{i} + y_j \, \hat{j} + z_j \, \hat{k}$. Sendo $\hat{i}$, $\hat{j}$ e $\hat{k}$ vetores unitários direcionados ao longo dos eixos $x$, $y$ e $z$ positivos. Além disso: $x_i$, $y_i$, $z_i$, $x_j$, $y_j$ e $z_j$ podem ser negativos, nulos ou positivos.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://socrates-oliveira-dantas.github.io/sod_physics/cargas-pont.jpg" alt="Cargas"&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1167,7 +1170,7 @@ $\hat{r}_{ij}=\frac{\vec{r}_{ij}}{r_{ij}}$ é o vetor unitário na direção e s
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Pela figura acima podemos com facilidade perceber que, via regra do paralelograma: $\vec{r}_i + \vec{r}_{ij} = \vec{r}_j$, ou ainda $\vec{r}_{ij} = \vec{r}_j - \vec{r}_i$. Estes três vetores podem possuir componentes ao longo dos três eixos cartesianos $x$, $y$ e $z$. Assim:&lt;/p&gt;
+&lt;p&gt;Onde $\vec{r}_i = x_i \, \hat{i} + y_i \, \hat{j} + z_i \, \hat{k}$ e $\vec{r}_j = x_j \, \hat{i} + y_j \, \hat{j} + z_j \, \hat{k}$ - representados pelos vetores em azul na figura acima - são posições fixas das cargas $q_i$ e $q_j$, respectivamente. Sendo $\hat{i}$, $\hat{j}$ e $\hat{k}$ vetores unitários direcionados ao longo dos eixos cartesianos $x$, $y$ e $z$ positivos. Além disso: $x_i$, $y_i$, $z_i$, $x_j$, $y_j$ e $z_j$ podem ser negativos, nulos ou positivos.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1175,10 +1178,194 @@ $\hat{r}_{ij}=\frac{\vec{r}_{ij}}{r_{ij}}$ é o vetor unitário na direção e s
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;$\vec{r}_{ij} = (x_j - x_i) \, \hat{i} + (y_j - y_i) \, \hat{j} + (z_j - z_i) \, \hat{k}$,&lt;/p&gt;
+&lt;p&gt;Pela figura acima podemos com facilidade perceber que, via regra do paralelograma: $\vec{r}_i + \vec{r}_{ij} = \vec{r}_j$, ou ainda $\vec{r}_{ij} = \vec{r}_j - \vec{r}_i$ - representado pelo vetor em vermelho na figura acima.  Assim, este último vetor pode ser escrito como:&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;$\vec{r}_{ij} = (x_j - x_i) \, \hat{i} + (y_j - y_i) \, \hat{j} + (z_j - z_i) \, \hat{k}$,&lt;br&gt;
+&lt;br&gt;
+onde:&lt;br&gt;
+&lt;br&gt;
+$r_{ij} = \sqrt{(x_j - x_i)^2 + (y_j - y_i)^2 + (z_j - z_i)^2}$&lt;br&gt;
+&lt;br&gt;
+é sua intensidade (magnitude).&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Além disso, pela terceira lei de Newton, sabemos que:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;$\vec{F}_{ij} = - \vec{F}_{ji}$,&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;ou seja, $\vec{F}_{ji}$ representa a força que a carga pontual $q_j$ sente devido à presença da carga pontual $q_i$. Significa dizer que: ambas as forças possuem &lt;font color="red"&gt;mesma intensidade&lt;/font&gt; (magnitude), &lt;font color="red"&gt;mesma direção&lt;/font&gt; mas &lt;font color="red"&gt;sentidos opostos&lt;/font&gt;, observe nas figuras a seguir.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Se as cargas $q_i$ e $q_j$ possuirem mesmo sinal (ambas $+$ ou $-$) as forças (em verde) são de repulsão e podem ser reprentadas - sobre cada partícula como:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;img src="https://socrates-oliveira-dantas.github.io/sod_physics/cargas-pont-rep.jpg" alt="Cargas-repulsão"&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Se as cargas $q_i$ e $q_j$ possuirem sinais opostos ($+$ e $-$ ou $-$ e $+$) as forças (em verde) são de atração e podem ser reprentadas - sobre cada partícula como:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;img src="https://socrates-oliveira-dantas.github.io/sod_physics/cargas-pont-atr.jpg" alt="Cargas-atração"&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Aplica&amp;#231;&amp;#227;o:"&gt;Aplica&amp;#231;&amp;#227;o:&lt;a class="anchor-link" href="#Aplica&amp;#231;&amp;#227;o:"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Uma carga pontual $q_1=0,5\mu C$ está localizada na origem ($0$,$0$,$0$) de um sistema cartesiano, uma segunda carga pontual $q_2=0,6\mu C$ está localizada no vértice ($a$,$a$,$a$) de um cubo de aresta $a=0,3m$. Determine o vetor força que age sobre a carga $q_2$.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Resolu&amp;#231;&amp;#227;o:"&gt;Resolu&amp;#231;&amp;#227;o:&lt;a class="anchor-link" href="#Resolu&amp;#231;&amp;#227;o:"&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Na busca por solução de um problema em Física é importante fazermos um desenho que ilustre a situação envolvida no enunciado, abaixo temos um esquema de como as cargas pontuais estão dispostas no espaço:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;img src="https://socrates-oliveira-dantas.github.io/sod_physics/cargas-pont-prob.jpg" alt="Problema"&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Assim, a força que a carga pontual $2$ sente devido a presença da carga pontual $1$ pode ser escrita como:
+$\vec{F}_{21} = - \frac{1}{4 \pi \epsilon_0} \frac{q_1 \, q_2}{r_{21}^2} \hat{r}_{21}$&lt;br&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Por outro lado:&lt;br&gt;
+$\vec{r}_{21} = \vec{r}_1 - \vec{r}_2$&lt;br&gt;
+$\vec{r}_{21} = 0 \, \hat{i} + 0 \, \hat{j} + 0 \, \hat{k} - (a \, \hat{i} + a \, \hat{j} + a \, \hat{k})$&lt;br&gt;
+$\vec{r}_{21} = - a \, (\hat{i} + \hat{j} + \hat{k})$&lt;br&gt;
+$r_{21} = a \, \sqrt{3} \rightarrow r_{21}^2 = 3 \, a^2$&lt;br&gt;
+$\hat{r}_{21} = \frac{\vec{r}_{21}}{r_{21}} = \frac{-1}{\sqrt{3}} \, (\hat{i} + \hat{j} + \hat{k})$&lt;br&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Logo:&lt;br&gt;
+$\vec{F}_{21} = - \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{3 \, a^2} \left[ \frac{-1}{\sqrt{3}} (\hat{i} + \hat{j} + \hat{k}) \right] = \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{\sqrt{27} \, a^2} (\hat{i} + \hat{j} + \hat{k})$&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;$\vec{F}_{21} = \frac{1}{4\pi \, \times 8,854187817 \times 10^{-12} \left( \frac{C^2}{N m^2} \right)} \frac{0,5\times 10^{-6} (C) \times 0,6 \times 10^{-6} (C)}{\sqrt{27} \times (0,3)^2 (m^2)} \, (\hat{i} + \hat{j} + \hat{k}) = \frac{1}{4\pi \times 8,854187817} \frac{0,3}{\sqrt{27} \times 9 \times 10^{-2}} \, (\hat{i} + \hat{j} + \hat{k}) \, (N)$&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Efetuando as contas e considerando $\pi=3,14159265359$, obtemos para o vetor força que a carga pontual $2$ sente devido à presença da carga pontual $1$:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;font color="blue"&gt;$\vec{F}_{21} \simeq 5,7655\times 10^{-3} (\hat{i} + \hat{j} + \hat{k}) \, (N)$&lt;/font&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;O resultado final para este vetor nos indica que a força é de repulsão apontada ao longo da diagonal do cubo, com intensidade (magnitude) de aproximadamente &lt;font color="blue"&gt;$\sqrt{3} \times 5,7655 \times 10^{-3} \, (N) \simeq 9,9861 \times 10^{-3} \, (N)$&lt;/font&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython2"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;
  
 
