@@ -173,7 +173,7 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./textos.html">
+<link rel="canonical" href="./Eletrostatica.html">
 
         <meta name="author" content="Dr. Sócrates de Oliveira Dantas" />
         <meta name="keywords" content="python" />
@@ -182,7 +182,7 @@ init_mathjax();
         <meta property="og:site_name" content="Conteúdo geral de Física!" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Primeiro texto Fisica 3!"/>
-        <meta property="og:url" content="./textos.html"/>
+        <meta property="og:url" content="./Eletrostatica.html"/>
         <meta property="og:description" content="Primeiro texto de Física 3 para o jupyter notebook."/>
         <meta property="article:published_time" content="2020-01-17" />
             <meta property="article:section" content="Texto-Fisica3" />
@@ -252,7 +252,7 @@ Conteúdo geral de Física!            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./textos.html"
+                    <a href="./Eletrostatica.html"
                        rel="bookmark"
                        title="Permalink to Primeiro texto Fisica 3!">
                         Primeiro texto Fisica 3!
@@ -1391,7 +1391,7 @@ h6:hover .anchor-link {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="-For&#231;a-eletrost&#225;tica-entre-part&#237;culas-pontuais:-"><font color="blue"> For&#231;a eletrost&#225;tica entre part&#237;culas pontuais: </font><a class="anchor-link" href="#-For&#231;a-eletrost&#225;tica-entre-part&#237;culas-pontuais:-">&#182;</a></h1><p>Supondo que o nosso sistema de partículas pontuais sejam constituído por duas cargas pontuais $q_i$ e $q_j$ separadas uma da outra como na figura abaixo. Além disso, vamos supor que não exista nenhum outro agente externo atuando sobre estas partículas - sistema isolado. A força que uma partícula sente devido à presença da outra pode ser representada por um <strong><em><font color="red">vetor</font></em></strong> através da seguinte expressão:</p>
+<h1 id="-For&#231;a-eletrost&#225;tica-entre-cargas-pontuais:-"><font color="blue"> For&#231;a eletrost&#225;tica entre cargas pontuais: </font><a class="anchor-link" href="#-For&#231;a-eletrost&#225;tica-entre-cargas-pontuais:-">&#182;</a></h1><h2 id="-Sistema-com-duas-cargas:"><font color="blue"> Sistema com duas cargas:</font><a class="anchor-link" href="#-Sistema-com-duas-cargas:">&#182;</a></h2><p>Supondo que o nosso sistema seja constituído por duas cargas pontuais $q_i$ e $q_j$ separadas uma da outra como na figura abaixo. Além disso, vamos supor que não exista nenhum outro agente externo atuando sobre estas cargas - sistema isolado. A força que uma carga sente devido à presença da outra pode ser representada por um <strong><em><font color="red">vetor</font></em></strong> através da seguinte expressão:</p>
 
 </div>
 </div>
@@ -1409,8 +1409,8 @@ h6:hover .anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>na expressão vetorial acima identificamos:<br></p>
 <ul>
-<li>$\vec{F}_{ij}$ é o vetor força que a partícula pontual carregada $i$ <strong><em><font color="red">sente</font></em></strong> devido à <strong><em><font color="red">presença</font></em></strong> da partícula pontual carregada $j$ em Newtons ($N$),<br></li>
-<li>o sinal negativo (<font color="red">$-$</font>) logo após a igualdade é muito importante e não deve ser menosprezado na expressão vetorial, <bf></li>
+<li>$\vec{F}_{ij}$ é o vetor força que a carga pontual $i$ <strong><em><font color="red">sente</font></em></strong> devido à <strong><em><font color="red">presença</font></em></strong> da carga pontual $j$ em Newtons ($N$),<br></li>
+<li>o sinal negativo (<font color="red">$-$</font>) logo após a igualdade é muito importante e não deve ser menosprezado, <bf></li>
 <li>$q_i$ e $q_j$ são os valores (<font color="red">incluindo sinais</font>) das cargas pontuais $i$ e $j$ em unidades de Coulomb ($C$),<br></li>
 <li>$\vec{r}_{ij}$ é o vetor posição que inicia na carga pontual $i$ e termina na carga pontual $j$,<br></li>
 <li>$r_{ij}$ é o módulo do vetor posição $\vec{r}_{ij}$ em metros ($m$),<br></li>
@@ -1424,7 +1424,7 @@ h6:hover .anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Esta expressão tem uma forma que é conhecida como de pares de partículas, quando comparamos com forças gravitacionais a dependência com a distância entre as partículas é a mesma. A única diferença está associada ao fato de forças gravitacionais serem apenas de atração.<br></p>
+<p>Esta expressão tem uma forma que é conhecida como de pares de partículas, quando comparamos com forças gravitacionais a dependência com a distância entre as partículas é a mesma. As diferenças estão associadas às constantes envolvidas, a troca de carga por massa de cada partícula, bem como ao fato das forças gravitacionais serem apenas de atração.<br></p>
 
 </div>
 </div>
@@ -1502,7 +1502,7 @@ $r_{ij} = \sqrt{(x_j - x_i)^2 + (y_j - y_i)^2 + (z_j - z_i)^2}$<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Se as cargas $q_i$ e $q_j$ possuirem mesmo sinal (ambas $+$ ou $-$) as forças (em verde) são de repulsão e podem ser reprentadas - sobre cada partícula como:</p>
+<p>Se as cargas $q_i$ e $q_j$ possuirem mesmo sinal (ambas $+$ ou $-$) as forças (em verde) são de repulsão e podem ser reprentadas - sobre cada carga como:</p>
 
 </div>
 </div>
@@ -1518,7 +1518,7 @@ $r_{ij} = \sqrt{(x_j - x_i)^2 + (y_j - y_i)^2 + (z_j - z_i)^2}$<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Se as cargas $q_i$ e $q_j$ possuirem sinais opostos ($+$ e $-$ ou $-$ e $+$) as forças (em verde) são de atração e podem ser reprentadas - sobre cada partícula como:</p>
+<p>Se as cargas $q_i$ e $q_j$ possuirem sinais opostos ($+$ e $-$ ou $-$ e $+$) as forças (em verde) são de atração e podem ser reprentadas - sobre cada carga como:</p>
 
 </div>
 </div>
@@ -1603,7 +1603,7 @@ $\vec{F}_{21} = - \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{3 \, a^2} \left[ \
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>$\vec{F}_{21} = \frac{1}{4\pi \, \times 8,854187817 \times 10^{-12} \left( \frac{C^2}{N m^2} \right)} \frac{0,5\times 10^{-6} (C) \times 0,6 \times 10^{-6} (C)}{\sqrt{27} \times (0,3)^2 (m^2)} \, (\hat{i} + \hat{j} + \hat{k}) = \frac{1}{4\pi \times 8,854187817} \frac{0,3}{\sqrt{27} \times 9 \times 10^{-2}} \, (\hat{i} + \hat{j} + \hat{k}) \, (N)$</p>
+<p>$\vec{F}_{21} = \frac{1}{4\pi \, \times 8,854187817 \times 10^{-12} \left( \frac{C^2}{N m^2} \right)} \frac{0,5\times 10^{-6} (C) \times 0,6 \times 10^{-6} (C)}{\sqrt{27} \times (0,3)^2 (m^2)} \, (\hat{i} + \hat{j} + \hat{k}) = \frac{1}{4\pi \, \times 8,854187817} \frac{0,3}{\sqrt{27} \times 9 \times 10^{-2}} \, (\hat{i} + \hat{j} + \hat{k}) \, (N)$</p>
 
 </div>
 </div>
@@ -1627,23 +1627,25 @@ $\vec{F}_{21} = - \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{3 \, a^2} \left[ \
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>O resultado final para este vetor nos indica que a força é de repulsão apontada ao longo da diagonal do cubo, com intensidade (magnitude) de aproximadamente <font color="blue">$\sqrt{3} \times 5,7655 \times 10^{-3} \, (N) \simeq 9,9861 \times 10^{-3} \, (N)$</font>.</p>
+<p>O resultado final para este vetor nos indica que a força é de repulsão (uma vez que ambas possuem mesmo sinal) apontada ao longo da diagonal principal do cubo, com intensidade (magnitude) de aproximadamente <font color="blue">$\sqrt{3} \times 5,7655 \times 10^{-3} \, (N) \simeq 9,9861 \times 10^{-3} \, (N)$</font>.</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span> 
-</pre></div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Fica claro que $\vec{F}_{12} = - \vec{F}_{21} \simeq - 5,7655\times 10^{-3} (\hat{i} + \hat{j} + \hat{k}) \, (N)$.</p>
 
-    </div>
 </div>
 </div>
-
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="A-pergunta-que-surge-naturalmente-&#233;:-como-tratamos-o-problema-de-um-sistema-constituido-por-mais-de-duas-cargas-pontuais?"><font color="blue">A pergunta que surge naturalmente &#233;: como tratamos o problema de um sistema constituido por mais de duas cargas pontuais?</font><a class="anchor-link" href="#A-pergunta-que-surge-naturalmente-&#233;:-como-tratamos-o-problema-de-um-sistema-constituido-por-mais-de-duas-cargas-pontuais?">&#182;</a></h4>
+</div>
+</div>
 </div>
  
 
@@ -1680,7 +1682,7 @@ $\vec{F}_{21} = - \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{3 \, a^2} \left[ \
             </div>
             <!-- /.entry-content -->
 <section class="well" id="related-posts">
-    <h4>Part 1 of the textos-series series</h4>
+    <h4>Part 1 of the Física 3 series</h4>
 </section>
         </article>
     </section>
@@ -1707,6 +1709,9 @@ $\vec{F}_{21} = - \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{3 \, a^2} \left[ \
   <a href="./"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
     <li class="list-group-item tag-4">
+      <a href="./tag/blog.html">blog</a>
+    </li>
+    <li class="list-group-item tag-4">
       <a href="./tag/fisica.html">Fisica</a>
     </li>
     <li class="list-group-item tag-4">
@@ -1714,9 +1719,6 @@ $\vec{F}_{21} = - \frac{1}{4\pi \epsilon_0} \frac{q_1 \, q_2}{3 \, a^2} \left[ \
     </li>
     <li class="list-group-item tag-4">
       <a href="./tag/python.html">python</a>
-    </li>
-    <li class="list-group-item tag-4">
-      <a href="./tag/blog.html">blog</a>
     </li>
   </ul>
 </li>
